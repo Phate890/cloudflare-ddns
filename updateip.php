@@ -98,7 +98,7 @@ if (!isset($cf_email, $cf_api, $dns_entry)) {
                                        'type' => 'A',
                                        'name' => $dns_entry,
                                        'content' => $ip_api,
-                                       'service_mode' => 0,
+                                       'service_mode' => 1,
                                        'ttl' => 120));
                     }
                 } else {
